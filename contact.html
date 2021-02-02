@@ -1,0 +1,222 @@
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contact Us</title>
+      <link rel="icon" href="img/IMG-20171006-WA0001.jpg" type="image/png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;height:90px;" id="mainNav">
+      <ul>  <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-size: 250%">Maacho Creatorz</a>  </ul> 
+        
+   
+         
+           <ul style="padding-left:700px;"> 
+       <li> <a href="index.html"style="color:#fec503;">HOME</a></li> 
+                 <li> <a href="gallery.html" style="color:#fec503;">GALLERY</a></li>  <li> <a href="contact.html" style="color:#fec503;">CONTACT US</a></li> </ul>        
+        
+        
+ </nav> 
+         <body>
+             <br><br><br><br>
+             <div class="padding">
+  <div class="w3-panel w3-card w3-orange" style="border:3px solid black;">
+                         <div class="row">
+          <div class="col-md-5 col-sm-6 grass" >
+              <center><h4>GET FREE QUOTE</h4></center>     <br>
+
+          <center>   <div class="row">
+                  
+                                <div class="col-md-6" >
+                                    
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter Firstname " required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter Lastname " required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder=" Enter your Email" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder=" Enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Get Quote">
+                                    <br><br><br><br>
+                                </div>
+              </div></center>
+              
+</div>
+                     <div class="col-md-3 col-sm-6">
+                         <br>
+                         <center><h4>Address</h4>
+                         <br>
+                        <P>Contact Number:<span style="color:white;"><br> +91 9841670865<br>+91 9840589374<br>+91 9500113230 </span>
+                           
+
+</P>  <br><p>Email us:<span style="color:white;"> maachocreatorz@gmail.com</span></p><br>
+                         <p>Address:<span style="color:white;"><br> no 5/479A,ambedkar road,kovilambakkam chennai-117</span></p></center>
+                         
+                             </div>
+ <div class="col-md-4 col-sm-4">     <br> 
+
+                 <center><h4>our location</h4></center>
+              <div id="map"></div>
+    <script>
+
+      function initMap() {
+        var myLatLng = {lat: 12.934111, lng: 80.177869};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Maacho Creatorz!'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx4Nz4SDLI43kFHkcQ1AYblASIk93VurE&callback=initMap">
+    </script><br>
+
+      </div>
+             </div>
+        
+                 </div></div>
+      </body> 
+                  
+    
+				
+
+ 
+        <footer style="background-color:black;">
+      <p class="m-0 text-center text-white">Copyright &copy;&nbsp;Maacho Creatorz 2017</p>
+      </footer>
+      
+       <style>
+          .a {
+                background: linear-gradient(132deg, #841138, #1665c1);
+                background-size: 400% 400%;
+                animation: BackgroundGradient 10s ease infinite;
+              text-align: right;
+            }
+            
+            @keyframes BackgroundGradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+            }
+      
+        
+         ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+            #map{
+width: 100%;
+        height: 330px;
+                border: 4px solid black;
+
+}
+           .bg-light
+           {
+width:100%;
+           
+           }
+            .w3-card
+           {
+                  padding-right: 60px;
+               width:99%;
+               height:445px;
+               border-color:
+           }
+           .map
+           {
+               padding-top: 50%;
+           }
+
+           .padding
+           {
+                   padding-left: 15px;
+
+           }
+           .grass
+           {
+               border-right:3px solid black;
+               height:350px;
+                margin-top:20px;
+           }
+
+</style>
